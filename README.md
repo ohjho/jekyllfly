@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 ### Configuration
-edit config.py
+edit config-example.py and rename to config.py
 ```python
 wordpress_url = "http://crossfitasphodel.com/wp-json/wp/v2" # <--- This is your old blog's WP API entry point
 posts_path = "_posts/wodup"                                 #_ <-- This is where you will save the new Jekyll posts md files, in the same directory as config.py
@@ -34,5 +34,5 @@ This project is licensed under MIT License - see the [license.md][3] file for de
 
 [1]: https://www.crummy.com/software/BeautifulSoup/
 [2]: https://github.com/stylight/python-wordpress-json
-[3]:
+[3]: https://github.com/ohjho/wodup-jekyllflied/blob/master/license.md
 [4]: http://www.hildeberto.com/2017/07/welcome-to-jekyll.html
