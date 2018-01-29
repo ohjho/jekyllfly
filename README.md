@@ -6,6 +6,7 @@ Migrating to *Jekyll*?
 If your answers are Yes, Yes, and Yes; then this python code is for you!  
 
 ## Getting Started
+I recommend using *vitrualenvwrapper*; if you don't know, [now][5] you know.
 
 ### Prerequisites
 Install the requirements in requirements.txt  
@@ -37,3 +38,4 @@ This project is licensed under MIT License - see the [license.md][3] file for de
 [2]: https://github.com/stylight/python-wordpress-json
 [3]: https://github.com/ohjho/wodup-jekyllflied/blob/master/license.md
 [4]: http://www.hildeberto.com/2017/07/welcome-to-jekyll.html
+[5]: https://help.pythonanywhere.com/pages/Virtualenvs/
