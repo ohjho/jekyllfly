@@ -8,17 +8,17 @@ If your answers are Yes, Yes, and Yes; then this python code is for you!
 
 ### Prerequisites
 Install the requirements in requirements.txt  
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ### Configuration
 edit config.py
-'''python
+```python
 wordpress_url = "http://crossfitasphodel.com/wp-json/wp/v2" # <--- This is your old blog's WP API entry point
 posts_path = "_posts/wodup"                                 #_ <-- This is where you will save the new Jekyll posts md files, in the same directory as config.py
 images_path = "images/posts"                                # <--- Image from posts will be saved here
-'''
+```
 
 ## Built With
 * Python 3
