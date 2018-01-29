@@ -1,7 +1,8 @@
 # WodUp-Jekyllfied
-Use WodUp?  
-Use Wordpress for your box's site?  
-Migrating to Jekyll?  
+Use *WodUp*?  
+Use *Wordpress* for your box's site?  
+Migrating to *Jekyll*?  
+
 If your answers are Yes, Yes, and Yes; then this python code is for you!  
 
 ## Getting Started
