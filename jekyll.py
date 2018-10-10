@@ -55,7 +55,7 @@ def clean_wodup_content(article):
     #Lets add some extras for our template
     str_excerpt_tag = "<!--more-->\n"
     str_include_head = "#### Compare to other {}s\n".format(article.tags[1].title())
-    str_include ="{% include list-posts tag='" + article.tags[1].lower() + "' %}"
+    str_include ="{% include list-posts tag='" + article.tags[1].lower() + "' entries='5' %}"
     markdown_content= str(md_soup) + "\n\n" + str_include_head + "{: .t60 }\n\n" + str_include
 
     return markdown_content
